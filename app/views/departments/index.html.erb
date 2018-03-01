@@ -1,5 +1,5 @@
-<h1>Click to View Content</h1>
-<%= link_to 'Create a new item', new_department_path %>
+<h1>Click to Add Department</h1>
+<%= link_to 'Create a new Department', new_department_path %>
 <ul>
   <% @departments.each do |department| %>
     <li><%= link_to department.name, department %></li>
